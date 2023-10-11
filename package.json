@@ -1,7 +1,22 @@
 {
-  "name": "form",
+  "name": "rhf-demo",
   "version": "0.1.0",
   "private": true,
+  "author": "Nurul Islam <nishojib@gmail.com>",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/nishojib/rhf-demo.git"
+  },
+  "description": "A simple demo app showcasing the usage of react-hook-form with zod",
+  "keywords": [
+    "typescript",
+    "zod",
+    "react",
+    "next",
+    "react-hook-form",
+    "server"
+  ],
+  "license": "MIT",
   "scripts": {
     "dev": "next dev",
     "build": "next build",

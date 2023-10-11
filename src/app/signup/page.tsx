@@ -6,10 +6,8 @@ import {
   CardContent,
   CardHeader,
   Container,
-  Link as MuiLink,
   Typography,
 } from '@mui/material';
-import Link from 'next/link';
 import { useForm } from 'react-hook-form';
 import { z } from 'zod';
 import { zodResolver } from '@hookform/resolvers/zod';
@@ -120,16 +118,6 @@ export default function Signup() {
               <Button type="submit" variant="contained">
                 Sign up
               </Button>
-              <Typography>
-                Already have an account?{' '}
-                <MuiLink
-                  href="/login"
-                  component={Link}
-                  sx={{ cursor: 'pointer' }}
-                >
-                  Login
-                </MuiLink>
-              </Typography>
             </CardContent>
           </form>
         ) : (
